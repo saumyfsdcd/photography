@@ -753,7 +753,7 @@ a {
     padding: 24px;
   }
   .item:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
       color: black;
       /* text-decoration-thickness: 4px; */
 
