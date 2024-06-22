@@ -712,13 +712,13 @@ footer h2{
     /* box-shadow: 0 0 0 3px #fff, 0 0 0 15px #111; */
     font-size: 24px;
     color: black;
-    width: 100px;
+    /* width: 100px; */
     line-height: 32px;
     padding: 10px;
   }
 
   .logo img{
-    width: 100px;
+    width: 130px;
   }
   
 .on{
@@ -753,7 +753,7 @@ a {
     padding: 24px;
   }
   .item:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
       color: black;
       /* text-decoration-thickness: 4px; */
 
@@ -807,7 +807,7 @@ a {
       -webkit-box-ordinal-group: 1;
               order: 0;
       text-align: center;
-      width: 100px;
+      width: 160px;
       margin: auto auto 20px;
     }
   
