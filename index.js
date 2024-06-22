@@ -18,6 +18,21 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener('scroll', function() {
+    const heroSection = document.querySelector('.hero');
+    const arrow = document.querySelector('.arrow-down');
+    
+    const heroHeight = heroSection.offsetHeight;
+    const scrollPosition = window.scrollY;
+
+    if (scrollPosition > heroHeight / 2) {
+        arrow.classList.add('hidden');
+    } else {
+        arrow.classList.remove('hidden');
+    }
+});
+
+
 document.querySelector('.arrow-down').addEventListener('click', function() {
     document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
 });

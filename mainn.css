@@ -703,6 +703,10 @@ footer h2{
     /* margin: 25px 0; */
     box-shadow: 0 5px 15px -10px #111;
   }
+
+  .arrow-down.hidden {
+    opacity: 0;
+}
   
   .logo {
     -webkit-box-ordinal-group: 2;
